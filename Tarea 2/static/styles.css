@@ -1,0 +1,100 @@
+table {
+  width: 100%;
+}
+
+.btn{
+  color: white;
+}
+td {
+  text-align: right;
+  padding: 10px;
+}
+
+.logo {
+  width: 120px;
+  height: 50px;
+}
+.td-especial{
+  width: 1000px;
+}
+.icono{
+  width: 40px;
+  height: 40px;
+  
+}
+.barraSuperior {
+  background-color: #0d4266;
+  text-align: right;
+}
+
+.primerosBotones {
+  background-color: #1770a6;
+}
+
+.primerosBotones {
+  width: 100%;
+}
+
+.primerosBotones td {
+  text-align: center;
+  padding: 10px;
+}
+
+.primerosBotones .btn {
+  text-decoration: none;
+}
+
+.segundoBotones {
+  background-color: #147aae;
+}
+
+td img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.td-escudo{
+  position: relative;
+  width: 15%;
+}
+
+.td-img {
+  position: absolute;
+  width: 100%;
+  height: 425%;
+  top: 0;
+  left: 0;
+}
+
+.td-logo {
+  position: absolute;
+  margin-top: 40%;
+  align-content: center;
+  width: 80%;
+  height: 400%;
+  top: 0;
+  left: 0;
+  transform: translate(13%, -50%);
+}
+
+.td-eslogan {
+  position: absolute;
+  margin-top: 120%;
+  align-content: center;
+  width: 300%;
+  height: 450%;
+  top: 0;
+  left: 0;
+  transform: translate(-35%, -50%);
+  ;
+}
+
+
+body {
+  background-color: #29B6F6;
+  
+  background: url(images/fondo.jpg);
+  background-size: cover;
+}
+
