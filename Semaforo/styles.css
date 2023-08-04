@@ -1,0 +1,105 @@
+.borde {
+    margin-top: 15%;
+    border-radius: 80px; 
+    background-color: #feeb6b; 
+    padding: 20px; 
+    width: 650px; 
+    height: 250px; 
+    transform-origin: center; 
+    transform: rotate(90deg);
+  }
+
+  .borde-interno {
+    position: absolute; 
+    top: 100%; 
+    left: -122%; 
+    transform: translate(-50%, -50%) rotate(90deg); 
+    
+    border-radius:120px; /* ajustar para redondear */
+    background-color: #292727;
+    padding: 20px; 
+    width: 600px;   
+    height: 200px; 
+    transform-origin: center; 
+    transform: rotate(90deg);
+    }
+  
+    .circulo1{
+        transform: translate(10%, 0%);
+        transform-origin: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px;
+        animation: changeColor 15s infinite;
+        background-color: rgb(111, 110, 110);
+        animation: changeColor1 15s infinite;
+    }
+
+    .circulo2{
+        transform-origin: center;
+        transform: translate(130%, -110%);
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px;
+        animation: changeColor 15s infinite;
+        background-color: rgb(111, 110, 110);
+        animation: changeColor2 15s infinite;
+    }
+
+    .circulo3{
+        transform-origin: center;
+        transform: translate(250%, -220%);
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px;
+        animation: changeColor 15s infinite;
+        background-color: rgb(111, 110, 110);
+        animation: changeColor3 15s infinite;
+    }
+
+
+    @keyframes changeColor1 {
+        0%, 100% {
+            background-color: red;
+        }
+        33.33% {
+            background-color: rgb(111, 110, 110);
+        }
+        66.66% {
+            background-color: rgb(111, 110, 110);
+        }
+    }
+    
+    @keyframes changeColor2 {
+        0%, 100% {
+            background-color: rgb(111, 110, 110);
+        }
+        33.33% {
+            background-color: rgb(111, 110, 110);
+        }
+        66.66% {
+            background-color: yellow ;
+        }
+    }
+    
+    @keyframes changeColor3 {
+        0%, 100% {
+            background-color: rgb(111, 110, 110);
+        }
+        33.33% {
+            background-color: rgb(5, 175, 5);
+        }
+        66.66% {
+            background-color: rgb(111, 110, 110);
+        }
+    }
+  
+  .contenido {
+    transform: rotate(-90deg); 
+    width: 200px; 
+    height: 200px; 
+  }
+  
