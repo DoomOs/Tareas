@@ -1,0 +1,65 @@
+body{
+flex: autos;
+    background-color: #444654;
+    color: white;
+}
+
+.barralateralizquierda{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #202123;
+    border-radius: 10px;
+    color: white;
+    transform: translate(-21%, 0%);
+}
+
+.iconotortrix{
+    width: 70px;
+    height: 70px;
+}
+
+.carta{
+
+    border-radius: 15px;
+    padding:20px;
+
+}
+
+.derecha{
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    
+    height: 700px;
+
+
+}
+
+.divNuevaconversacion{
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.conversacion{
+    text-align: center;
+    transform: translate(5%, -0%);
+    height: 400px;
+    width: 90%;
+    border-radius: 30px;
+}
+
+.spanabajo{
+    transform: translate(25%,1900%);
+}
+
+.divtexarea{
+    border-top: 1px solid #fff;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.form-outline{
+    background-color:#444654 ;
+}
