@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+    position: relative;
+    background: #fffffff9;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5vw;
+}
+
+.barra-btn{
+    width: 20px;
+    height: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.barra-btn img{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.barra-btn img:nth-child(1){
+    border-radius: 1px;
+    top: 0;
+}
+
+.barra-btn img:nth-child(3){
+    top: 100%;
+    border-radius: 1px;
+}
+
+
+.logo{
+    height: 55px;
+    margin: -10px 30px 0;
+}
+
+.cuadro-busqueda{
+    position: relative;
+    max-width: 500px;
+    width: 50%;
+    height: 35px;
+    display: flex;
+}
+
+.buscar-barra{
+    width: 85%;
+    height: 100%;
+    border: 2px solid #dbdbdb;
+    padding: 0 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 25px;
+}
+
+.buscar-btn{
+    width: 10%;
+    height: 100%;
+    background: #f0f0f0;
+    border: 2px solid #dbdbdb;
+    padding: 5px 0;
+    border-left: none;
+    border-radius: 25px;
+}
+
+.buscar-btn img{
+    height: 100%;
+}
+
+.opciones-barra{   
+    height: 35px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.opciones-barra .icono{
+    height: 80%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.perfil-usuario{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.perfil-usuario img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.menu-bar{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    min-width: 250px;
+    width: 250px;
+    height: calc(100vh - 60px);
+    background: #fff;
+    padding-right: 10px;
+}
+
+.opciones-menu{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #242424;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.opciones-menu img{
+    height: 25px;
+    margin-right: 20px;
+}
+
+
+.opciones-menu.active{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.seperador{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+
+
+.filtros{
+    position: fixed;
+    left: 250px;
+    top: 60px;
+    width: calc(100% - 250px);
+    height: 60px;
+    background: #fff;
+    padding:  20px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+   
+}
+
+
+
+.filtro-opcion{
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    text-transform: capitalize;
+    margin-right: 10px;
+    color: #242424;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.filtro-opcion.active{
+    color: #fff;
+    background: #242424;
+}
+
+
+
+.video-container{
+    width: calc(100% - 250px);
+    margin-top: 130px;
+    margin-left: 250px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px 15px;
+    overflow-x: hidden;
+   
+}
+
+.video{
+    min-height: 220px;
+    height: auto;
+    
+}
+
+.miniatura{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: thin;
+    
+}
+
+.contenido{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.canal-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.titulo{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.canal-nombre{
+    font-size: 14px;
+    margin: 2px 0;
+    color: #979797;
+}
+
+.info{
+    text-align: left;
+
+}
+
+.footer {
+    background-color: #fff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
