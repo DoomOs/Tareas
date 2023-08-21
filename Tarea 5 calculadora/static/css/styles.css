@@ -1,0 +1,104 @@
+
+.container{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 300px; 
+    min-height: auto;
+    background-color: #b1ddddcd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);    
+    gap: 20px; 
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+ 
+.grid input{
+    grid-column: span 4; 
+    border-radius: 10px;
+}
+
+.grid div{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #D4DEEC;
+}
+
+.grid .signos{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #e3e5e8;
+}
+
+.grid .signos:hover{
+    background-color: #e9f4d4;
+    transition: 0.4s;
+}
+
+.grid .operar{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #a8c4eb;
+}
+
+.grid .operar:hover{
+    background-color: #8da7cb;
+    transition: 0.4s;
+}
+
+.grid .borrar{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(226, 148, 148);
+    grid-column: span 4;
+}
+
+.grid .borrar:hover{
+    background-color: rgb(224, 111, 111);
+    transition: 0.4s;
+}
+
+.grid div p{
+    font-size: 1.5rem;
+    text-size-adjust: 10px;
+    text-align: center;
+}
+
+
+
+  .grid div:hover{
+    background-color: #B8C9E0;
+    transition: 0.4s;
+  }
+
+  @media (max-width: 1200px) {
+    
+    .container {
+      width: 40%; 
+    }
+  }
+
+  @media (max-width: 768px) {
+    
+    .container {
+      width: 60%; 
+    }
+  }
+  
+
+  @media (max-width: 500) {
+    
+    .container {
+      width: 80%; 
+    }
+  }
+  
